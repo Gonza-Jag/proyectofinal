@@ -25,8 +25,6 @@ h1, h2, h3, p {
 }
 
 .header--container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -48,8 +46,6 @@ h1, h2, h3, p {
 }
 
 .header--navbar--ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -108,8 +104,6 @@ h1, h2, h3, p {
 /*...............CARDS.........*/
 .card {
   background-color: #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -148,8 +142,6 @@ h1, h2, h3, p {
 }
 
 .footer--container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -171,8 +163,6 @@ h1, h2, h3, p {
 }
 
 .footer--navbar--menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -198,8 +188,6 @@ h1, h2, h3, p {
 
 .footer--navbar .footer--navbar--end {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -236,3 +224,5 @@ h1, h2, h3, p {
   width: 40%;
   height: auto;
 }
+
+
